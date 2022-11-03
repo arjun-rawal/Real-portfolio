@@ -1,0 +1,83 @@
+#title:hover{
+    text-decoration:underline;
+    
+    
+}
+.title{
+    font-family:arial; 
+    font-size:100px;
+    position:absolute;
+    left:15%;
+    top:33%;
+    color:#AEEAC2;
+    display:flex;
+    text-shadow:0px 8px 1px #A31621;
+
+    
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.cannonImg{
+    position:absolute;
+    left:90%;
+    top:38%;
+    max-width: 10%;
+}
+
+@keyframes bounce {
+    0%   { transform: scale(1,1) translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-55px);}
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    58%  { transform: scale(1,1) translateY(-7px); }
+    100% { transform: scale(1,1) translateY(0);}
+}
+
+.a {
+animation: bounce 3s ease infinite 0.8s;
+}
+
+.r {
+animation: bounce 3s ease infinite 1s;
+}
+
+.j {
+animation: bounce 3s ease infinite 1.2s;
+}
+
+.u {
+animation: bounce 3s ease infinite 1.3s;
+}
+
+.n {
+animation: bounce 3s ease infinite 1.4s;
+}
+
+
+.spaceChar {
+animation: bounce 3s ease infinite 1.5s;
+}
+
+.r1 {
+animation: bounce 3s ease infinite 1.6s;
+}
+
+.a1 {
+animation: bounce 3s ease infinite 1.7s;
+    }
+    
+.w1 {
+animation: bounce 3s ease infinite 1.8s;
+}
+    
+.a2 {
+animation: bounce 3s ease infinite 1.9s;
+}
+    
+.l1 {
+animation: bounce 3s ease infinite 2s;
+}
+
