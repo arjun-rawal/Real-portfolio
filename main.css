@@ -1,8 +1,4 @@
-#title:hover{
-    text-decoration:underline;
-    
-    
-}
+
 .title{
     font-family:arial; 
     font-size:100px;
@@ -17,67 +13,67 @@
 }
 
 .title:hover{
-    text-decoration: underline;
+   /* animation: slideUp 0.5s ease 1 0s; */
+   transition: transform 0.5s ease;
+   transform: translateY(-20px);
+   text-decoration:underline;
 }
 
-.cannonImg{
-    position:absolute;
-    left:90%;
-    top:38%;
-    max-width: 10%;
+
+@keyframes slideUp{
+    100% {transform: translateY(-20px);}
 }
 
 @keyframes bounce {
     0%   { transform: scale(1,1) translateY(0); }
-    10%  { transform: scale(1.1,.9) translateY(0); }
-    30%  { transform: scale(.9,1.1)   translateY(-55px);}
-    50%  { transform: scale(1.05,.95) translateY(0); }
-    58%  { transform: scale(1,1) translateY(-7px); }
+    5%  { transform: scale(1.1,.9) translateY(0); }
+    15%  { transform: scale(.9,1.1)   translateY(55px);}
+    29%  { transform: scale(1,1) translateY(7px); }
+    50% { transform: scale(1,1) translateY(0);}
     100% { transform: scale(1,1) translateY(0);}
 }
 
 .a {
-animation: bounce 3s ease infinite 0.8s;
+animation: bounce 7s ease infinite 0.8s;
 }
 
 .r {
-animation: bounce 3s ease infinite 1s;
+animation: bounce 7s ease infinite 1s;
 }
 
 .j {
-animation: bounce 3s ease infinite 1.2s;
+animation: bounce 7s ease infinite 1.2s;
 }
 
 .u {
-animation: bounce 3s ease infinite 1.3s;
+animation: bounce 7s ease infinite 1.4s;
 }
 
 .n {
-animation: bounce 3s ease infinite 1.4s;
+animation: bounce 7s ease infinite 1.6s;
 }
 
 
 .spaceChar {
-animation: bounce 3s ease infinite 1.5s;
+animation: bounce 7s ease infinite 1.8s;
 }
 
 .r1 {
-animation: bounce 3s ease infinite 1.6s;
+animation: bounce 7s ease infinite 2.0s;
 }
 
 .a1 {
-animation: bounce 3s ease infinite 1.7s;
+animation: bounce 7s ease infinite 2.2s;
     }
     
 .w1 {
-animation: bounce 3s ease infinite 1.8s;
+animation: bounce 7s ease infinite 2.4s;
 }
     
 .a2 {
-animation: bounce 3s ease infinite 1.9s;
+animation: bounce 7s ease infinite 2.6s;
 }
     
 .l1 {
-animation: bounce 3s ease infinite 2s;
+animation: bounce 7s ease infinite 2.8s;
 }
-
